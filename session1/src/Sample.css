@@ -1,0 +1,42 @@
+.animated{
+    background-color: blueviolet;
+    padding: 5%;
+    width: fit-content;
+    margin-left: 2%;
+}
+
+#rotated{
+    animation: rotate 10s ease-in 2s infinite normal;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100% {
+      transform: rotate(180deg) scale(2);
+    }
+    /* 100% {
+        transform: rotate(180deg);
+    } */
+  }
+
+@keyframes translate {
+    0% {
+      transform: translate();
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+    /* 100% {
+        transform: rotate(180deg);
+    } */
+  }
+
+
+/* rotations, translations, scale */
+
+/* Linear, ease, ease-in, ease-out */

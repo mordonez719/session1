@@ -4,10 +4,9 @@ function Sample(props){
 
     return (
         <>
-            <div>
+            <div id={props.id} className='animated'>
                 Sample Component
             </div>
-            <p>{props.name}</p>
         </>
     )
 
